@@ -38,7 +38,7 @@ export const PersonalTickersList: FC<PersonalTickersListProps> = (props) => {
   };
 
   return (
-    <List>
+    <List data-testid="personal-tickers-list">
       {userTickers.map(
         ({
           ticker, price, change_percent, change, dividend

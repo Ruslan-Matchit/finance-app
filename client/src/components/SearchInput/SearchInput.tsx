@@ -14,7 +14,7 @@ export const SearchInput: FC<SearchInputProps> = (props) => {
     = useSearchInput(props);
 
   return (
-    <Box>
+    <Box data-testid="search-input">
       <TextField
         variant="outlined"
         className={classes.textField}
